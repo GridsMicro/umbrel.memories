@@ -34,6 +34,12 @@ You can view the processes running in the background using the command `htop`
 
 ![pic1](/src/Screenshot%20from%202022-11-25%2013-01-58.png)
 
+## Uninstall umbrel from ubuntu
+
+I've tested installing umbrel on ubuntu 22.04. But I'm facing insufficient space to store all blocks. and I tried to uninstall it. in umbrel.comunication There is little information for me to delete the /home/umbrel directory. It can't be easily done, I deleted it with Shift+Del and after a while the directory was back in place.
+
+Finally I discovered that Docker is still running so that when deleting the directory it can always be recreated like salamander. So I had to stop Docker first with the command `sudo systemctl stop docker` Then the `/home/umbrel` directory can be removed.
+
 ## Raspberry Pi Basic Command
 
 - Update Raspberry OS (Don't use it with your umbrel)
