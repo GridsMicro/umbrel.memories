@@ -40,6 +40,10 @@ I've tested installing umbrel on ubuntu 22.04. But I'm facing insufficient space
 
 Finally I discovered that Docker is still running so that when deleting the directory it can always be recreated like salamander. So I had to stop Docker first with the command `sudo systemctl stop docker` Then the `/home/umbrel` directory can be removed.
 
+~~~
+sudo rm -rf umbrel
+~~~
+
 ## Raspberry Pi Basic Command
 
 - Update Raspberry OS (Don't use it with your umbrel)
