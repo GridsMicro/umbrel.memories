@@ -8,5 +8,5 @@
 - [Command line](./rasp/command.md)
 
 ## For Ubuntu 22.04 (NUC)
- 
+
 - [Installation](./nuc/install.md)
